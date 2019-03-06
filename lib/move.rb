@@ -13,7 +13,6 @@ def move(board, index, character = "X")
 end
 
   puts "Welcome to Tic Tac Toe!"
-  board = [" "," "," "," "," "," "," "," "," "]
   puts "Where would you like to go?"
   user_input = gets.strip
   index = input_to_index(input)
