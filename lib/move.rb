@@ -1,6 +1,10 @@
-
-
-
+  puts "Welcome to Tic Tac Toe!"
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  puts "Where would you like to go"
+  input = gets.strip
+  input_to_index(input)
+  move(board,converted_interger, value="X")
+  display_board(board)
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "	 
