@@ -1,12 +1,9 @@
 def display_board(board)
-  puts "Welcome to Tic Tac Toe!"
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  puts "What is your move?"
-  user_input = gets.strip
-  index = input_to_index(user_input)
-  puts "What is your next move?"
-  user_input = gets.strip
-  index = input_to_index(user_input)
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts "-----------"
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
+  puts "-----------"
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
 def input_to_index(user_input)
