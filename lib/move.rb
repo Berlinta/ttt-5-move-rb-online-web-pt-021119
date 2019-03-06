@@ -1,7 +1,7 @@
 def display_board(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "Welcome to Tic Tac Toe!"
-  user_input = gets.chomp
+  user_input = gets.strip
 end
 
 def input_to_index(user_input)
