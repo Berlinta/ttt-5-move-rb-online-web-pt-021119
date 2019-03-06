@@ -1,5 +1,6 @@
 def display_board(board)
   puts "Welcome to Tic Tac Toe!"
+  
 end
 
 def input_to_index(user_input)
