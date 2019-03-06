@@ -16,3 +16,5 @@ def move(board, index, character = "X")
 end
 
 user_input = gets.strip
+
+end
