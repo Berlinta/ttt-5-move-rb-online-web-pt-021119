@@ -14,13 +14,13 @@ end
 puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "What is your move?"
-input = gets.strip
+# input = gets.strip
 index = input_to_index(input)
 move(board, index)
 display_board(board)
 
 puts "What is your next move?"
-input = gets.strip
+# input = gets.strip
 index = input_to_index(input)
 move(board, index)
 display_board(board)
