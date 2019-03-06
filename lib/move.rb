@@ -6,6 +6,7 @@ def display_board(board)
   index = input_to_index(user_input)
   move(board, index)
   display_board(board)
+  
 
 end
 
