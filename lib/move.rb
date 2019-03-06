@@ -5,8 +5,6 @@ def display_board(board)
   user_input = gets.strip
   index = input_to_index(user_input)
 
-  input = gets.strip
-  index = input_to_index(index)
 end
 
 def input_to_index(user_input)
