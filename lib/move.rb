@@ -1,5 +1,6 @@
 def display_board(board)
   puts "Welcome to Tic Tac Toe!"
+  user_input
   
 end
 
