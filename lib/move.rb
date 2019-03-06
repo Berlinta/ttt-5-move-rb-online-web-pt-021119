@@ -1,5 +1,3 @@
-
-
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "	 
   puts "-----------"
@@ -12,7 +10,9 @@ end
 
  def move(board,converted_input,value = "X")
  board[converted_input] = value
-end  puts "Welcome to Tic Tac Toe!"
+ end
+
+  puts "Welcome to Tic Tac Toe!"
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "Where would you like to go"
   input = gets.strip
