@@ -18,7 +18,7 @@ end
 
   puts "Where would you like to go?"
 
-  input= gets.strip
+  user_inputinput= gets.strip
 
   index=input_to_index(input)
 
