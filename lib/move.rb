@@ -19,4 +19,3 @@ end
  def move(board,converted_input,value = "X")
  board[converted_input] = value
 end
-
